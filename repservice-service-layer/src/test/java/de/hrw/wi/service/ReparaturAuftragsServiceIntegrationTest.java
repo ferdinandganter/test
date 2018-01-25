@@ -29,6 +29,7 @@ public class ReparaturAuftragsServiceIntegrationTest {
     DatabaseImpl db;
     ReparaturAuftragsServiceInterface repAuftragsService;
     //Ferdinand
+    //Aufgabe7
     public void setUp() throws Exception {
 
         databaseTester = new JdbcDatabaseTester("org.hsqldb.jdbcDriver", DB_URL, USER, PASSWORD);

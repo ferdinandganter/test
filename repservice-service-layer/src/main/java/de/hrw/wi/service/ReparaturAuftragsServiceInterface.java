@@ -21,7 +21,7 @@ public interface ReparaturAuftragsServiceInterface {
      * 
      * @return Eine Menge mit allen Aufträgen in der Datenbank.
      */
-    public Set<ReparaturAuftrag> getAllAuftraege();
+    Set<ReparaturAuftrag> getAllAuftraege();
 
     /**
      * Hole einen persistent in der Datenbank gespeicherten Auftrag über seine Nummer.
@@ -29,6 +29,7 @@ public interface ReparaturAuftragsServiceInterface {
      * 
      *            Die Nummer eines Auftrags
      * @return Der Auftrag mit der angegebenen Nummer oder null falls kein solcher Auftrag existiert
+     *@param nr String
      */
     ReparaturAuftrag getAuftragByNr(String nr);
 
